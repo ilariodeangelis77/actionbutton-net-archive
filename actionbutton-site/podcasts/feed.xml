@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+
+<title>Action Button Dot Net Podcasts</title>
+
+<link>http://www.actionbutton.net/podcasts/</link>
+
+<language>en-us</language>
+
+<copyright>copyright 2007 tim rogers, et al.</copyright>
+
+<itunes:subtitle>Welcome to featured podcasts of the crunchiest videogame reviews around!</itunes:subtitle>
+
+<itunes:author>ABDN Hosts</itunes:author>
+
+<itunes:summary>Only the finest in videogame reviews from freelancers to industry professionals alike. Condensed reviews from actionbutton.net uploaded every Monday, Wednesday, and Friday.</itunes:summary>
+
+<description>Only the finest in videogame reviews from freelancers to industry professionals alike. Condensed reviews from actionbutton.net uploaded every Monday, Wednesday, and Friday.</description>
+
+<itunes:owner>
+<itunes:name>Charles Hartley</itunes:name>
+<itunes:email>arc@wowway.com</itunes:email>
+</itunes:owner>
+
+<itunes:image href="http://www.actionbutton.net/podcasts/button.png" />
+
+<itunes:category text="Games &amp; Hobbies">
+<itunes:category text="Video Games" />
+</itunes:category>
+
+<itunes:category text="Technology">
+<itunes:category text="Gadgets" />
+</itunes:category>
+
+<itunes:category text="Games &amp; Hobbies">
+<itunes:category text="Other Games" />
+</itunes:category>
+
+
+<image><title>Action Button Dot Net Podcasts</title>
+  <url>http://www.actionbutton.net/images/button.gif</url> 
+  <width>130</width> 
+  <height>130</height>
+<link>http://www.actionbutton.net/podcasts/</link>
+</image>
+
+<itunes:explicit>yes</itunes:explicit>
+
+<itunes:keywords>Action Button, Microsoft, Vista, Windows, Videogames, PS2, PS3, Xbox, 360, Wii, Xbox 360, PSP, DS, Nintendo, Sega, Sony, Atari</itunes:keywords>
+
+<webMaster>arc@wowway.com</webMaster>
+
+		<item>
+			<title>ABDN Episode 031</title>
+<itunes:author>Tim Rogers</itunes:author>
+
+<itunes:subtitle>Elder Scrolls IV Oblivion (One &amp; 1/2 Stars)</itunes:subtitle>
+
+<itunes:summary>Elder Scrolls IV Oblivion is not the holodeck on Star Trek.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet31.mp3" length="4829312" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet31.mp3</guid>
+
+<pubDate>Fri, 29 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>8:44</itunes:duration>
+
+<itunes:keywords>tim rogers, elder scrolls, oblivion, ps3, rpg, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Elder Scrolls IV Oblivion is not the holodeck on Star Trek.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 030</title>
+<itunes:author>James Edwards</itunes:author>
+
+<itunes:subtitle>Super Columbine Massacre RPG (Zero Stars)</itunes:subtitle>
+
+<itunes:summary>Super Columbine Massacre RPG is something the easily impressed can coo over.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet30.mp3" length="4459612" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet30.mp3</guid>
+
+<pubDate>Wed, 27 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:55</itunes:duration>
+
+<itunes:keywords>james edwards, columbine, massacre, rpg, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Super Columbine Massacre RPG is something the easily impressed can coo over.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 029</title>
+<itunes:author>Brendan Lee</itunes:author>
+
+<itunes:subtitle>Wonder Project J (Three Stars)</itunes:subtitle>
+
+<itunes:summary>Wonder Project J is heroic.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet29.mp3" length="4601984" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet29.mp3</guid>
+
+<pubDate>Mon, 25 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:52</itunes:duration>
+
+<itunes:keywords>brendan lee, wonder project j, super famicom, sim, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Wonder Project J is heroic.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 028</title>
+<itunes:author>Tim Rogers</itunes:author>
+
+<itunes:subtitle>Xenosaga Episode III (One Star)</itunes:subtitle>
+
+<itunes:summary>Xenosaga Episode III is terrorism plotted by a super computer.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet28.mp3" length="4556928" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet28.mp3</guid>
+
+<pubDate>Fri, 22 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:41</itunes:duration>
+
+<itunes:keywords>tim rogers, xenosaga, namco, bandai, rpg, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Xenosaga Episode III is terrorism plotted by a super computer.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 027</title>
+<itunes:author>Ario Barzan</itunes:author>
+
+<itunes:subtitle>Plok Review (Three Stars)</itunes:subtitle>
+
+<itunes:summary>Plok is like feeling the shoreline brush against your feet on Planet X.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet27.mp3" length="4970624" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet27.mp3</guid>
+
+<pubDate>Wed, 20 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>8:26</itunes:duration>
+
+<itunes:keywords>snes, plok, ario barzan, platformer, classic, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Plok is like feeling the shoreline brush against your feet on Planet X.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 026</title>
+<itunes:author>Bennett</itunes:author>
+
+<itunes:subtitle>Burnout Dominator Review (Three Stars)</itunes:subtitle>
+
+<itunes:summary>Burnout Dominator is not a driving game. Thank god.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet26.mp3" length="4391040" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet26.mp3</guid>
+
+<pubDate>Tue, 19 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:27</itunes:duration>
+
+<itunes:keywords>bennett, psp, burnout, dominator, playstation, racing, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Burnout Dominator is not a driving game. Thank god.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 025</title>
+<itunes:author>Tim Rogers</itunes:author>
+
+<itunes:subtitle>Resident Evil 4 Wii Edition Review (Two &amp; 1/2 Stars)</itunes:subtitle>
+
+<itunes:summary>Resident Evil 4 is dangerously close to the new retro.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet25.mp3" length="4186240" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet25.mp3</guid>
+
+<pubDate>Fri, 15 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:27</itunes:duration>
+
+<itunes:keywords>tim rogers, wii, resident evil 4, biohazard, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Resident Evil 4 is dangerously close to the new retro.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 024</title>
+<itunes:author>David Cabrera</itunes:author>
+
+<itunes:subtitle>Neo Geo Battle Coliseum Review (Two &amp; 1/2 Stars)</itunes:subtitle>
+
+<itunes:summary>Neo Geo Battle Coliseum is GONNA PLAY SOME STREET FIGHTER FOUR OUTSIDE RIGHT NOW!</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet24.mp3" length="4593792" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet24.mp3</guid>
+
+<pubDate>Wed, 13 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:59</itunes:duration>
+
+<itunes:keywords>david cabrera, arcade, ps2, neogeo, kof, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Neo Geo Battle Coliseum is GONNA PLAY SOME STREET FIGHTER FOUR OUTSIDE RIGHT NOW!</description>
+
+			</item>
+
+
+
+
+		<item>
+			<title>ABDN Episode 023</title>
+<itunes:author>Thom Moyles</itunes:author>
+
+<itunes:subtitle>Grand Theft Auto: Liberty City Stories Review (One Star)</itunes:subtitle>
+
+<itunes:summary>Liberty City Stories is systematically flipping off everybody in the room.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet23.mp3" length="4032841" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet23.mp3</guid>
+
+<pubDate>Mon, 11 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:04</itunes:duration>
+
+<itunes:keywords>thom moyles, ps2, psp, gta, grand theft auto, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Liberty City Stories is systematically flipping off everybody in the room.</description>
+
+			</item>
+
+
+		<item>
+			<title>ABDN Episode 022</title>
+<itunes:author>Tim Rogers</itunes:author>
+
+<itunes:subtitle>Wii Sports Review (One Star)</itunes:subtitle>
+
+<itunes:summary>Wii Sports is a twenty-four-hour supermarket manager going over his taxes.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet22.mp3" length="4143150" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet22.mp3</guid>
+
+<pubDate>Fri, 08 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:19</itunes:duration>
+
+<itunes:keywords>tim rogers, wii, sports, wiimote, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Wii Sports is a twenty-four-hour supermarket manager going over his taxes.</description>
+
+			</item>
+
+
+		<item>
+			<title>ABDN Episode 021</title>
+<itunes:author>James Edwards</itunes:author>
+
+<itunes:subtitle>The Legend of Zelda: A Link to the Past Review 2 (One Star)</itunes:subtitle>
+
+<itunes:summary>A Link to the Past is aging as well as Patti Smith.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet21.mp3" length="4251648" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet21.mp3</guid>
+
+<pubDate>Wed, 06 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:16</itunes:duration>
+
+<itunes:keywords>snes, zelda, link to the past, james edwards, action button, abdn, charles hartley</itunes:keywords>
+
+<description>A Link to the Past is aging as well as Patti Smith.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 020</title>
+<itunes:author>Brandon Parker</itunes:author>
+
+<itunes:subtitle>WWE Smackdown vs Raw 2007 Review (One &amp; 1/2 Stars)</itunes:subtitle>
+
+<itunes:summary>WWE SmackDown vs. Raw 2007 is still real to me.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet20.mp3" length="4444160" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet20.mp3</guid>
+
+<pubDate>Mon, 04 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:16</itunes:duration>
+
+<itunes:keywords>ps2, xbox, brandon parker, wwe, smackdown, raw, action button, abdn, charles hartley</itunes:keywords>
+
+<description>WWE SmackDown vs. Raw 2007 is still real to me.</description>
+
+			</item>
+
+
+		<item>
+			<title>ABDN Episode 019</title>
+<itunes:author>Tim Rogers</itunes:author>
+
+<itunes:subtitle>Dawn of Mana Review (Two Stars)</itunes:subtitle>
+
+<itunes:summary>Dawn of Mana is cute as some weird Engrish translated by two Japanese girls and four dictionaries.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet19.mp3" length="4397184" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet19.mp3</guid>
+
+<pubDate>Fri, 01 Jun 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:43</itunes:duration>
+
+<itunes:keywords>ps2, tim rogers, seiken densetsu, dawn of mana, square enix, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Dawn of Mana is cute as some weird Engrish translated by two Japanese girls and four dictionaries.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 018</title>
+<itunes:author>James Edwards</itunes:author>
+
+<itunes:subtitle>Sonic and the Secret Rings Review (Three Stars)</itunes:subtitle>
+
+<itunes:summary>Sonic and the Secret Rings is not a Sonic game.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet18.mp3" length="4280448" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet18.mp3</guid>
+
+<pubDate>Wed, 30 May 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:33</itunes:duration>
+
+<itunes:keywords>james edwards, sonic, sonic the hedgehog, secret rings, wii, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Sonic and the Secret Rings is not a Sonic game.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 017</title>
+<itunes:author>Stephen Kelly</itunes:author>
+
+<itunes:subtitle>KOF Maximum Impact 2 Review (Three &amp; 1/2 Stars)</itunes:subtitle>
+
+<itunes:summary>KOF Maximum Impact 2 is the first post-fighting game.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet17.mp3" length="4298880" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet17.mp3</guid>
+
+<pubDate>Mon, 28 May 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:52</itunes:duration>
+
+<itunes:keywords>stephen kelly, king of fighters, maximum impact, action button, abdn, charles hartley</itunes:keywords>
+
+<description>KOF Maximum Impact 2 is the first post-fighting game.</description>
+
+			</item>
+
+
+		<item>
+			<title>ABDN Episode 016</title>
+<itunes:author>James Edwards</itunes:author>
+
+<itunes:subtitle>Castlevania Symphony of the Night Review (Two Stars)</itunes:subtitle>
+
+<itunes:summary>Symphony of the Night is A sacred cow, dying for someone to stick a big fucking knife into it.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet16.mp3" length="4343936" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet16.mp3</guid>
+
+<pubDate>Fri, 25 May 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:31</itunes:duration>
+
+<itunes:keywords>james edwards, konami, castlevania, symphony of the night, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Symphony of the Night is A sacred cow, dying for someone to stick a big fucking knife into it.</description>
+
+			</item>
+
+
+		<item>
+			<title>ABDN Episode 015</title>
+<itunes:author>Carl Bohlin</itunes:author>
+
+<itunes:subtitle>Supreme Commander Review (Three Stars)</itunes:subtitle>
+
+<itunes:summary>Supreme Commander is to the original Warcraft, what a modern bullet-hell shooter is to the first Gradius.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet15.mp3" length="3518592" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet15.mp3</guid>
+
+<pubDate>Wed, 23 May 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>6:37</itunes:duration>
+
+<itunes:keywords>microsoft, supreme commander, carl bohlin, action button, abdn, charles hartley</itunes:keywords>
+
+<description>Supreme Commander is to the original Warcraft, what a modern bullet-hell shooter is to the first Gradius.</description>
+
+			</item>
+
+
+
+
+
+
+
+		<item>
+			<title>ABDN Episode 014</title>
+<itunes:author>Andrew Toups</itunes:author>
+
+<itunes:subtitle>God of War II Review (Zero Stars)</itunes:subtitle>
+
+<itunes:summary>God of War II is like going through an entire box of q-tips in a single day.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet14.mp3" length="4009063" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet14.mp3</guid>
+
+<pubDate>Mon, 21 May 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>6:55</itunes:duration>
+
+<itunes:keywords>sony, playstation, andrew toups, god of war, abdn, action button</itunes:keywords>
+
+<description>God of War II is like going through an entire box of q-tips in a single day.</description>
+
+			</item>
+
+
+
+
+		<item>
+			<title>ABDN Episode 013</title>
+<itunes:author>Tim Rogers</itunes:author>
+
+<itunes:subtitle>Viva Pinata Review (One Star)</itunes:subtitle>
+
+<itunes:summary>Viva Pinata is a Microsoft Excel Primer for Preemies.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet13.mp3" length="3807360" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet13.mp3</guid>
+
+<pubDate>Fri, 18 May 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>6:38</itunes:duration>
+
+<itunes:keywords>viva pinata, tim rogers, microsoft, xbox, bill gates</itunes:keywords>
+
+<description>Viva Pinata is a Microsoft Excel Primer for Preemies.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 012</title>
+<itunes:author>Bennett</itunes:author>
+
+<itunes:subtitle>Final Fantasy XII Review (Two Stars)</itunes:subtitle>
+
+<itunes:summary>Final Fantasy XII is perfect in form and function, but otherwise, bad.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet12.mp3" length="4092032" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet12.mp3</guid>
+
+<pubDate>Wed, 16 May 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:08</itunes:duration>
+
+<itunes:keywords>final fantasy, playstation, vaan, bennett</itunes:keywords>
+
+<description>Final Fantasy XII is perfect in form and function, but otherwise, bad.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 011</title>
+<itunes:author>James Edwards</itunes:author>
+
+<itunes:subtitle>Metal Gear Solid Review (One Star)</itunes:subtitle>
+
+<itunes:summary>Metal Gear Solid is someone got Hideo in your lackluster action game.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet11.mp3" length="4079744" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet11.mp3</guid>
+
+<pubDate>Mon, 14 May 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:19</itunes:duration>
+
+<itunes:keywords>metal gear, playstation, james edwards, snake</itunes:keywords>
+
+<description>Metal Gear Solid is someone got Hideo in your lackluster action game.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 010</title>
+<itunes:author>Eric-Jon Rossel Waugh</itunes:author>
+
+<itunes:subtitle>Altered Beast Review (Two Stars)</itunes:subtitle>
+
+<itunes:summary>Altered Beast is the world's best pack-in game.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet10.mp3" length="3481600" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet10.mp3</guid>
+
+<pubDate>Sun, 29 Apr 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>6:52</itunes:duration>
+
+<itunes:keywords>eric-jon rossel waugh, arcade, genesis, werewolf</itunes:keywords>
+
+<description>Altered Beast is the world's best pack-in game.</description>
+
+			</item>
+
+
+		<item>
+			<title>ABDN Episode 009</title>
+<itunes:author>James Edwards</itunes:author>
+
+<itunes:subtitle>Super Mario Land Review (Four Stars)</itunes:subtitle>
+
+<itunes:summary>Super Mario Land is joyous.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet09.mp3" length="4888704" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet09.mp3</guid>
+
+<pubDate>Sat, 28 Apr 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>9:13</itunes:duration>
+
+<itunes:keywords>james edwards, gameboy, nintendo, mario</itunes:keywords>
+
+<description>Super Mario Land is joyous.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 008</title>
+<itunes:author>Tim Rogers</itunes:author>
+
+<itunes:subtitle>Musou: Orochi Review (Half A Star)</itunes:subtitle>
+
+<itunes:summary>Musou: Orochi is apparently designed by men who took six years to obtain bachelors' degrees in PowerPoint Presentationology.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet08.mp3" length="13846656" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet08.mp3</guid>
+
+<pubDate>Fri, 27 Apr 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>27:23</itunes:duration>
+
+<itunes:keywords>tim rogers, orochi, koei</itunes:keywords>
+
+<description>Musou: Orochi is apparently designed by men who took six years to obtain bachelors' degrees in PowerPoint Presentationology.</description>
+
+			</item>
+
+
+
+
+
+		<item>
+			<title>ABDN Episode 007</title>
+<itunes:author>Andrew Toups</itunes:author>
+
+<itunes:subtitle>The Legend of Zelda: A Link to the Past Review 1 (Three Stars)</itunes:subtitle>
+
+<itunes:summary>A Link to the Past is a hell of a lot better than I remember.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet07.mp3" length="6782976" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet07.mp3</guid>
+
+<pubDate>Tue, 24 Apr 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>13:13</itunes:duration>
+
+<itunes:keywords>zelda, nintendo, andrew toups</itunes:keywords>
+
+<description>A Link to the Past is a hell of a lot better than I remember.</description>
+
+			</item>
+
+
+
+		<item>
+			<title>ABDN Episode 006</title>
+<itunes:author>Tim Rogers</itunes:author>
+
+<itunes:subtitle>Kingdom Hearts II: Final Mix Review (Zero Stars)</itunes:subtitle>
+
+<itunes:summary>Kingdom Hearts II is a lot like Disney World, if Disney World were a shoebox.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet06.mp3" length="8216704" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet06.mp3</guid>
+
+<pubDate>Mon, 23 Apr 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>16:36</itunes:duration>
+
+<itunes:keywords>tim rogers, mickey, disney, playstation, squarenix</itunes:keywords>
+
+<description>Kingdom Hearts II is a lot like Disney World, if Disney World were a shoebox.</description>
+
+			</item>
+
+
+		<item>
+			<title>ABDN Episode 005</title>
+<itunes:author>Brendan Lee</itunes:author>
+
+<itunes:subtitle>New Super Mario Bros. Review (One &amp; 1/2 Stars)</itunes:subtitle>
+
+<itunes:summary>New Super Mario Bros. is too goofily honest to really sap you over the head.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet05.mp3" length="3920000" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet05.mp3</guid>
+
+<pubDate>Tue, 17 Apr 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>8:11</itunes:duration>
+
+<itunes:keywords>mario, brendan lee, nintendo, ds</itunes:keywords>
+
+<description>New Super Mario Bros. is too goofily honest to really sap you over the head.</description>
+
+			</item>
+
+
+		<item>
+			<title>ABDN Episode 004</title>
+<itunes:author>James Edwards</itunes:author>
+
+<itunes:subtitle>Final Fantasy VII Review (No Stars)</itunes:subtitle>
+
+<itunes:summary>Final Fantasy VII is the death knell of virtue.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet04.mp3" length="4960384" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet04.mp3</guid>
+
+<pubDate>Mon, 16 Apr 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>9:50</itunes:duration>
+
+<itunes:keywords>final fantasy, james edwards, playstation</itunes:keywords>
+
+<description>Final Fantasy VII is the death knell of virtue.</description>
+
+			</item>
+
+		<item>
+			<title>ABDN Episode 003</title>
+<itunes:author>Tim Rogers</itunes:author>
+
+<itunes:subtitle>Gears of War Review (Four Stars)</itunes:subtitle>
+
+<itunes:summary>Gears of War is the game of the decade.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet03.mp3" length="12087424" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet03.mp3</guid>
+
+<pubDate>Sun, 15 Apr 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>22:36</itunes:duration>
+
+<itunes:keywords>gears war, tim rogers, xbox</itunes:keywords>
+
+<description>Gears of War is the game of the decade.</description>
+
+			</item>
+
+
+		<item>
+			<title>ABDN Episode 002</title>
+<itunes:author>Heather Campbell</itunes:author>
+
+<itunes:subtitle>Legend of Zelda: Twilight Princess Review (One Star)</itunes:subtitle>
+
+<itunes:summary>Twilight Princess is Grandma's way of tricking you into taking out the trash.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet02.mp3" length="3625088" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet02.mp3</guid>
+
+<pubDate>Sat, 14 Apr 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>7:19</itunes:duration>
+
+<itunes:keywords>zelda, twilight princess, heather campbell</itunes:keywords>
+
+<description>Twilight Princess is Grandma's way of tricking you into taking out the trash.</description>
+
+			</item>
+
+		<item>
+			<title>ABDN Episode 001</title>
+<itunes:author>Tim Rogers</itunes:author>
+
+<itunes:subtitle>Saint's Row Review (Zero Stars)</itunes:subtitle>
+
+<itunes:summary>Saints' Row is the videogame equivalent of a hate crime.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet01.mp3" length="8386688" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet01.mp3</guid>
+
+<pubDate>Fri, 13 Apr 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>16:06</itunes:duration>
+
+<itunes:keywords>saints, saints row, game review, tim rogers</itunes:keywords>
+
+<description>Saints' Row is the videogame equivalent of a hate crime.</description>
+
+			</item>
+
+		<item>
+			<title>ABDN Episode 000</title>
+<itunes:author>ActionButton.net</itunes:author>
+
+<itunes:subtitle>Mission Statement</itunes:subtitle>
+
+<itunes:summary>Our mission is to review videogames. Our reviews, punchy and to the point, can and will employ wordplay trickery and sometimes actual, absolute anger.</itunes:summary>
+
+<enclosure url="http://www.actionbutton.net/podcasts/abnet00.mp3" length="1992832" type="audio/mpeg"/>
+
+<guid>http://www.actionbutton.net/podcasts/abnet00.mp3</guid>
+
+<pubDate>Thu, 12 Apr 2007 03:00:00 EST</pubDate>
+
+<itunes:duration>3:02</itunes:duration>
+
+<itunes:keywords>mission, game, reviews, crunchy</itunes:keywords>
+
+<description>Our mission is to review videogames. Our reviews, punchy and to the point, can and will employ wordplay trickery and sometimes actual, absolute anger.</description>
+
+			</item>
+
+
+		</channel>
+	</rss>

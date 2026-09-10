@@ -1,0 +1,17 @@
+{
+  "completed_by_kind": {
+    "asset": 667,
+    "css": 31,
+    "page": 324
+  },
+  "counts_by_state": {
+    "done": 1022,
+    "missing": 29
+  },
+  "generated_at": "2026-09-10T06:42:39Z",
+  "hosts": [
+    "www.actionbutton.net",
+    "actionbutton.net"
+  ],
+  "target_timestamp": "20230206182305"
+}

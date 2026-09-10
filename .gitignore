@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+_site/
+
+# Earlier, incomplete crawl kept only as a local working artifact.
+actionbutton-local/
+

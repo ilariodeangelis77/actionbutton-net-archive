@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>action button &rsaquo; Login</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+
+<!--[if IE]><style type="text/css">#login h1 a { margin-top: 35px; } #login #login_error { margin-bottom: 10px; }</style><![endif]--><!-- Curse you, IE! -->
+<script type="text/javascript">
+		function focusit() {
+			document.getElementById('user_login').focus();
+		}
+		window.onload = focusit;
+	</script>
+</head>
+<body class="login">
+<div id="login"><h1><a href="http://wordpress.org/" title="Powered by WordPress"><span class="hide">action button</span></a></h1>
+<form action="#" id="loginform" method="post" name="loginform" onsubmit="return false">
+<p>
+<label>Username:<br/>
+<input class="input" id="user_login" name="log" size="20" tabindex="10" type="text" value=""/></label>
+</p>
+<p>
+<label>Password:<br/>
+<input class="input" id="user_pass" name="pwd" size="20" tabindex="20" type="password" value=""/></label>
+</p>
+<p><label><input id="rememberme" name="rememberme" tabindex="90" type="checkbox" value="forever"/> Remember me</label></p>
+<p class="submit">
+<input id="submit" name="submit" tabindex="100" type="submit" value="Login &raquo;"/>
+<input name="redirect_to" type="hidden" value="http://www.actionbutton.net/?p=564"/>
+</p>
+</form>
+</div>
+<ul>
+<li><a href="#">Register</a></li>
+<li><a href="#" title="Password Lost and Found">Lost your password?</a></li>
+<li><a href="/" title="Are you lost?">Back to action button</a></li>
+</ul>
+</body>
+</html>

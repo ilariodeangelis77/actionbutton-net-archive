@@ -1,0 +1,12 @@
+{
+  "scanned_files": 390,
+  "changed_file_count": 3,
+  "repaired_sequence_count": 5,
+  "changed_files": {
+    "archive/2007/03/index.html": 1,
+    "archive/2007/04/page/2/index.html": 1,
+    "archive/2007/04/page/3/index.html": 3
+  },
+  "remaining_repairable_files": {},
+  "dry_run": false
+}

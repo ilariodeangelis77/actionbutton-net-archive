@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]>
+		<html xmlns="http://www.w3.org/1999/xhtml" class="ie8" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec" >
+	<![endif]-->
+<!--[if !(IE 8) ]><!-->
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" xmlns:addthis="http://www.addthis.com/help/api-spec" xmlns:fb="http://ogp.me/ns/fb#">
+<!--<![endif]-->
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>action button dot net &rsaquo; Log In</title>
+<link href="/wp/wp-includes/css/buttons.min.css" id="buttons-css" media="all" rel="stylesheet" type="text/css"/>
+
+<link href="/wp/wp-includes/css/dashicons.min.css" id="dashicons-css" media="all" rel="stylesheet" type="text/css"/>
+
+<script src="/wp/wp-includes/js/jquery/jquery.js" type="text/javascript"></script>
+<script src="/wp/wp-includes/js/jquery/jquery-migrate.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var strong_password_error_text = {"text":"Sorry, but you must enter a strong password."};
+/* ]]> */
+</script>
+<meta content="noindex,follow" name="robots"/>
+</head>
+<body class="login login-action-login wp-core-ui locale-en-us">
+<div id="login">
+<h1><a href="https://wordpress.org/" tabindex="-1" title="Powered by WordPress">action button dot net</a></h1>
+<form action="#" id="loginform" method="post" name="loginform" onsubmit="return false">
+<p>
+<label for="user_login">Username<br/>
+<input class="input" id="user_login" name="log" size="20" type="text" value=""/></label>
+</p>
+<p>
+<label for="user_pass">Password<br/>
+<input class="input" id="user_pass" name="pwd" size="20" type="password" value=""/></label>
+</p>
+<p class="forgetmenot"><label for="rememberme"><input id="rememberme" name="rememberme" type="checkbox" value="forever"/> Remember Me</label></p>
+<p class="submit">
+<input class="button button-primary button-large" id="wp-submit" name="wp-submit" type="submit" value="Log In"/>
+<input name="redirect_to" type="hidden" value="http://www.actionbutton.net/wp/wp-admin/"/>
+<input name="testcookie" type="hidden" value="1"/>
+</p>
+</form>
+<p id="nav">
+<a href="#">Register</a> | 	<a href="#" title="Password Lost and Found"></a>
+</p>
+<script type="text/javascript">
+function wp_attempt_focus(){
+setTimeout( function(){ try{
+d = document.getElementById('user_login');
+d.focus();
+d.select();
+} catch(e){}
+}, 200);
+}
+
+wp_attempt_focus();
+if(typeof wpOnload=='function')wpOnload();
+</script>
+<p id="backtoblog"><a href="/" title="Are you lost">&larr; Back to action button dot net</a></p>
+</div>
+<link href="/wp/wp-content/plugins/addthis/css/output.css" id="output-css" media="all" rel="stylesheet" type="text/css"/>
+<div class="clear"></div>
+</body>
+</html>

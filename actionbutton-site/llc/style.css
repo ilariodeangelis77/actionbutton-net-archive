@@ -1,0 +1,45 @@
+@import url('Furore-fontfacekit/stylesheet.css');
+
+body {
+	overflow: hidden;
+	background: #000;
+	color: #fff;
+	font-family: 'FuroreRegular', sans-serif;
+	text-align: center;
+	
+	font-size: 2em;
+}
+
+#masthead {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	
+	background: url(abe.png) no-repeat center center;
+}
+
+#main-link {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#like {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+h1 {
+	visibility: hidden;
+	height: 50%;
+}
+
+p {
+	text-shadow: 0px 0px 20px rgba(200,225,255,0.8);
+	color: #fff;
+}
+

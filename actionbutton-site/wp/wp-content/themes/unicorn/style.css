@@ -1,0 +1,629 @@
+/* Type CSS rules here and they will be applied
+to pages from 'editcss'
+immediately as long as you keep this window open. */
+
+/**** LINK-tag style sheet style.css ****/
+
+/* Type CSS rules here and they will be applied
+to pages from 'editcss'
+immediately as long as you keep this window open. */
+
+/**** LINK-tag style sheet style.css ****/
+
+/* Type CSS rules here and they will be applied
+to pages from 'editcss'
+immediately as long as you keep this window open. */
+
+/**** LINK-tag style sheet style.css ****/
+
+/* 
+Theme Name: unicorn
+Theme URI: http://aydin.net/blog/2006/02/13/wordpress-theme-three-column-black-letterhead/
+Description: Based on Robin Hastings' Letterhead, and modifications by Ulysses Ronquillo, but with a three column layout.
+Author: Hakan Aydin
+Author URI: http://www.aydin.net/blog
+Version: 1.0
+
+.
+CSS colors modified by Ulysses Ronquillo located at http://ulyssesonline.com.
+.
+This theme was originally designed and built by Robin Hastings, whose blog you will find at 
+http://www.rhasting.net. It uses the default Kubrick theme as a base. 
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+.
+*/
+
+/* Begin Typography & Colors */
+body {
+	font-size: 75.5%; /* Resets 1em to 10px */
+	font-family: Verdana, Arial, Sans-Serif;
+	background-color: #f9e6f0;
+	color: #fff;
+	text-align: center;
+	background: url('/images/deep_purple_sky.png');
+	}
+
+#page {
+	/*background-color: black;*/
+	text-align: left;
+  width: 730px
+	}
+
+#header {
+  padding-top: 1em;
+	/*background-color: black;*/
+	}
+
+#content {
+	font-size: 1.2em
+	}
+
+.widecolumn .entry p {
+	font-size: 1.05em;
+	}
+
+.narrowcolumn .entry, .widecolumn .entry {
+	line-height: 1.4em;
+	}
+
+.widecolumn {
+	line-height: 1.6em;
+	}
+	
+.narrowcolumn .postmetadata {
+	text-align: center;
+	}
+
+.alt {
+	/*background-color: black;*/
+	border-top: 1px solid #d0eade;
+	border-bottom: 1px solid #d0eade;
+	}
+
+small {
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	}
+
+h1, h2, h3 {
+	font-family: Garamond, 'Copperplate Gothic Light', Georgia, 'Times New Roman', Serif;
+	font-weight: bold;
+	}
+
+h1 {
+	font-size: 3.5em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	}
+
+.description {
+	font-size: 1.2em;
+	text-align: center;
+	letter-spacing: .6em;
+	}
+
+h2 {
+	font-size: 1.6em;
+	}
+
+h2.pagetitle {
+	font-size: 1.6em;
+	}
+#sidebar {
+/*	border-top: 1px solid black;
+	border-bottom: 1px solid black;*/
+	}
+#sidebar h2 {
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 1.2em;
+	}
+
+#sidebar2 {
+/*	border-top: 1px solid black;
+	border-bottom: 1px solid black;*/
+	}
+#sidebar2 h2 {
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 1.2em;
+	}
+
+h3 {
+	font-size: 1.3em;
+	}
+
+h1, h1 a, h1 a:hover, h1 a:visited, .description {
+	text-decoration: none;
+	color: pink;
+	}
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
+	color: pink;
+	}
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+	text-decoration: none;
+	}
+
+.entry p a:visited {
+	color: /* #ff9900; */ #0099ff;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em Verdana, Arial, Sans-Serif;
+	}
+	
+.commentlist li {
+	font-weight: bold;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentform p {
+	font-family: Verdana, Arial, Sans-Serif;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+#sidebar {
+	font: 1em Verdana, Arial, Sans-Serif;
+	}
+#sidebar2 {
+	font: 1em Verdana, Arial, Sans-Serif;
+	}
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+	color: #ddd;
+	}
+	
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+	}
+
+acronym, abbr, span.caps
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+a, h2 a:hover, h3 a:hover, a:visited {
+  color: pink;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: pink;
+	text-decoration: underline;
+	}
+	
+#wp-calendar #prev a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font: bold 1.3em Verdana, Arial, Sans-Serif;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+/* End Typography & Colors */
+
+/* Begin Structure */
+body {
+	margin: 0;
+	padding: 0; 
+	}
+
+#page {
+	/*background-color: black;*/
+	margin: 20px auto;
+	padding: 0;
+	width: 990px;
+	/*border: 1px solid #fff;*/
+	}
+	
+#header {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+/*	background-color: black;*/
+	}
+
+.narrowcolumn {
+	float: left;
+	padding: 0 0 20px 25px;
+	margin: 0px 0 0;
+	width: 730px;
+	}
+
+.widecolumn {
+	padding: 10px 0 20px 0;
+	margin: 5px 0 0 100px;
+	width: 670px;
+	}
+
+.pagepost {
+	margin: 0 0 40px;
+	/*border-top: 1px solid black;*/
+	}
+	
+.post {
+	margin: 0 0 4px;
+	text-align: justify;
+	/*border-top: 1px solid black;*/
+	}
+
+.widecolumn .post {
+	margin: 0;
+	}
+
+.narrowcolumn .postmetadata {
+	padding-top: 5px;
+	}
+
+.widecolumn .postmetadata {
+	margin: 30px 0;
+	}
+	
+#footer {
+	padding: 0 0 0 1px;
+	margin: 0 auto;
+	width: 989px;
+	clear: both;
+	}
+
+#footer p {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	}
+/* End Structure */
+
+/*	Begin Headers */
+h1 {
+	padding-top: 40px;
+	margin: 0;
+	}
+
+.description {
+	text-align: center;
+	}
+
+h2 {
+	margin: 30px 0 0;
+	}
+
+h2.pagetitle {
+	margin-top: 30px;
+        color: ff00ff;
+	text-align: center;
+}
+
+#sidebar h2 {
+	margin: 5px 0 0;
+	padding: 0;
+	}
+#sidebar2 h2 {
+	margin: 5px 0 0;
+	padding: 0;
+	}
+
+
+h3 {
+	padding: 0;
+	margin: 30px 0 0;
+	}
+
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px ;
+	}
+/* End Headers */
+/* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+html>body .entry ul {
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding-left: 10px;
+	text-indent: -10px;
+	} 
+
+html>body .entry li {
+	margin: 7px 0 8px 10px;
+	}
+
+.entry ul li:before, #sidebar ul ul li:before {
+	content: "\00BB \0020";
+	}
+
+.entry ol {
+	padding: 0 0 0 15px;
+	margin: 0;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+	
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0;
+	}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 15px;
+	}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+	}
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 0 0 10px;
+	}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 0 0 10px;
+	}
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+	}
+
+#sidebar ul ul li, #sidebar ul ol li {
+	margin: 3px 0 0;
+	padding: 0;
+	}
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+.submit input
+{
+  color: #000;
+  background: #ffa20f;
+  font-weight: bold;
+  border: 2px outset #d7b9c9;
+	font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#searchform {
+	margin: 10px auto;
+	padding: 5px 3px; 
+	text-align: center;
+	}
+
+#sidebar #searchform #s {
+	width: 115px;
+	padding: 2px;
+ 	}
+
+#sidebar input {
+	padding: 1px;
+  color: #512c88;
+  /*background: #000;*/
+  border: 1px solid #de41c2; /* #ff9900  #7bbbfc*/
+	font-size: 10px;
+	}
+
+#sidebar #searchsubmit {
+        padding: 1px;
+        color: /* #ff9900; */ /* #b9d9f8; */ #70C8f4;
+        background: #111;
+        border: 1px solid /* #ff9900; */ #7bbbfc;
+        font-weight: bold;
+	font-size: 10px;
+        }
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+        background-color: #A0A0A0;
+        border-style: ridge;
+	}
+
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+        background-color: #A0A0A0;
+        border-style: ridge;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: right;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+/* End Comments */
+
+
+
+/* Begin Sidebar */
+#sidebar
+{
+	padding: 20px 0 10px 0;
+	margin-left: 798px;
+	width: 162px;
+ 	/*background-color: #000;*/
+	}
+
+#sidebar form {
+	margin: 0;
+	}
+/* End Sidebar */
+
+/* Begin Sidebar2 */
+#sidebar2
+{
+	padding: 20px 0 10px 0;
+	margin-left: 20px;
+	width: 138px;
+        float: left;
+
+	}
+
+#sidebar2 form {
+	margin: 0;
+	}
+/* End Sidebar2 */
+
+
+
+
+
+/* Begin Calendar */
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+hr {
+ display: none;
+ }
+ 
+.center {
+	text-align: center;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	}
+/* End Various Tags & Classes*/
