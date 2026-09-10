@@ -90,6 +90,18 @@ python .\build_github_pages.py --source .\actionbutton-site `
   --destination .\_site --base-path /YOUR_REPOSITORY_NAME
 ```
 
+Verify the complete build before publishing it:
+
+```powershell
+python -m pip install --requirement .\requirements-integrity.txt
+python .\verify_integrity.py --root .\_site `
+  --base-path /YOUR_REPOSITORY_NAME
+```
+
+The GitHub Pages workflow runs this audit automatically and refuses to deploy
+if a local reference is missing, a project-relative URL is incorrectly
+prefixed, an image payload is invalid, or a Wayback replay URL remains.
+
 In the GitHub repository settings, set **Pages → Build and deployment →
 Source** to **GitHub Actions**. Only publish material you have permission to
 redistribute.

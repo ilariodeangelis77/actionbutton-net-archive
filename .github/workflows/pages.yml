@@ -26,6 +26,16 @@ jobs:
         with:
           enablement: true
 
+      - name: Configure Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements-integrity.txt
+
+      - name: Install integrity-check dependencies
+        run: python -m pip install --requirement requirements-integrity.txt
+
       - name: Build project-path-safe mirror
         shell: bash
         run: |
@@ -44,6 +54,18 @@ jobs:
       - name: Validate deployed JavaScript syntax
         shell: bash
         run: find _site -type f -name '*.js' -print0 | xargs -0 -n1 node --check
+
+      - name: Verify archive integrity
+        shell: bash
+        run: |
+          repo_name="${GITHUB_REPOSITORY#*/}"
+          owner_name="${GITHUB_REPOSITORY%%/*}"
+          if [[ "$repo_name" == "${owner_name}.github.io" ]]; then
+            base_path=""
+          else
+            base_path="/$repo_name"
+          fi
+          python verify_integrity.py --root _site --base-path "$base_path"
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
