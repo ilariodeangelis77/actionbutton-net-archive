@@ -1,47 +1,14 @@
 {
-  "image_reference_occurrences": 1414,
-  "missing": {
-    "/wp/wp-includes/fonts/dashicons.eot": [
-      "wp/wp-includes/css/dashicons.min.css"
-    ],
-    "/wp/wp-includes/fonts/dashicons.eot#iefix": [
-      "wp/wp-includes/css/dashicons.min.css"
-    ],
-    "/wp/wp-includes/fonts/dashicons.ttf": [
-      "wp/wp-includes/css/dashicons.min.css"
-    ]
-  },
+  "image_reference_occurrences": 1494,
+  "missing": {},
   "corrupt": {},
   "external": {},
-  "ignored_external": {
-    "https://cinderellaaffair.org/wp-content/uploads/2024/12/Screenshot-2024-12-09-at-1.25.39 PM-1024x658.png": [
-      "archive/2010/09/index.html"
-    ],
-    "https://cinderellaaffair.org/PM-1024x658.png": [
-      "archive/2010/09/index.html"
-    ],
-    "https://cinderellaaffair.org/PM-300x193.png": [
-      "archive/2010/09/index.html"
-    ],
-    "https://cinderellaaffair.org/PM-768x494.png": [
-      "archive/2010/09/index.html"
-    ],
-    "https://cinderellaaffair.org/PM-1536x987.png": [
-      "archive/2010/09/index.html"
-    ],
-    "https://cinderellaaffair.org/PM.png": [
-      "archive/2010/09/index.html"
-    ]
-  },
-  "repaired_count": 9,
+  "ignored_external": {},
+  "repaired_count": 11,
   "localized_external_count": 0,
-  "unavailable_during_repair": [
-    "/podcasts/itunes.gif",
-    "/podcasts/xml.gif"
-  ],
+  "unavailable_during_repair": [],
   "markup_fallbacks": [
-    "/podcasts/itunes.gif (text fallback)",
-    "/podcasts/xml.gif (text fallback)",
-    "/wp/wp-content/uploads/2008/11/[gametitle].GIF (removed source placeholder)"
+    "/podcasts/itunes.gif (restored archived image)",
+    "/podcasts/xml.gif (restored archived image)"
   ]
 }

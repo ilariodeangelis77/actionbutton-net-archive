@@ -25,6 +25,13 @@ CSS_ROOT_URL = re.compile(
     r"(?P=quote)(?P<suffix>\s*\))",
     re.I,
 )
+SCRIPT_BLOCK = re.compile(
+    r"(?P<open><script\b[^>]*>)(?P<body>.*?)(?P<close></script\s*>)",
+    re.I | re.S,
+)
+JS_ROOT_STRING = re.compile(
+    r"(?P<quote>['\"])(?P<url>/(?!/)[^'\"\r\n]*)(?P=quote)",
+)
 BODY_OPEN = re.compile(r"(<body\b[^>]*>)", re.I)
 
 
@@ -40,7 +47,8 @@ def prefix_srcset(value: str, base_path: str) -> str:
     for candidate in value.split(","):
         leading = candidate[: len(candidate) - len(candidate.lstrip())]
         content = candidate.lstrip()
-        if content.startswith("/") and not content.startswith("//"):
+        already_prefixed = content == base_path or content.startswith(base_path + "/")
+        if content.startswith("/") and not content.startswith("//") and not already_prefixed:
             content = base_path + content
         candidates.append(leading + content)
     return ",".join(candidates)
@@ -51,11 +59,29 @@ def prefix_root_urls(text: str, base_path: str, suffix: str) -> str:
         return text
 
     if suffix in {".htm", ".html", ".xml"}:
+        def prefix_script(match: re.Match[str]) -> str:
+            body = JS_ROOT_STRING.sub(
+                lambda url_match: (
+                    f"{url_match.group('quote')}{base_path}"
+                    f"{url_match.group('url')}{url_match.group('quote')}"
+                )
+                if not url_match.group("url").startswith(base_path + "/")
+                else url_match.group(0),
+                match.group("body"),
+            )
+            return f"{match.group('open')}{body}{match.group('close')}"
+
+        text = SCRIPT_BLOCK.sub(prefix_script, text)
         text = HTML_ROOT_ATTRIBUTE.sub(
             lambda match: (
                 f"{match.group('prefix')}{match.group('quote')}"
                 f"{base_path}{match.group('url')}{match.group('quote')}"
-            ),
+            )
+            if not (
+                match.group("url") == base_path
+                or match.group("url").startswith(base_path + "/")
+            )
+            else match.group(0),
             text,
         )
         text = SRCSET_ATTRIBUTE.sub(
@@ -70,7 +96,12 @@ def prefix_root_urls(text: str, base_path: str, suffix: str) -> str:
         lambda match: (
             f"{match.group('prefix')}{match.group('quote')}{base_path}"
             f"{match.group('url')}{match.group('quote')}{match.group('suffix')}"
-        ),
+        )
+        if not (
+            match.group("url") == base_path
+            or match.group("url").startswith(base_path + "/")
+        )
+        else match.group(0),
         text,
     )
 

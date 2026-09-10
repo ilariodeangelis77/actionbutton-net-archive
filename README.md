@@ -50,7 +50,8 @@ This removes obsolete social widgets, disables unavailable audio links, keeps
 missing reviews on explicit local fallback pages, and synchronizes repaired
 asset state. To resume recovering the optional randomized sidebar GIF set, add
 `--recover-sidebar`; completed files are retained between runs and the live
-slideshow automatically uses only locally available variants.
+slideshow automatically uses only locally available variants. The checked-in
+mirror currently contains all 86 recovered sidebar GIF variants.
 
 ## Browse locally
 

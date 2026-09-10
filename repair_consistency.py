@@ -247,6 +247,8 @@ def sync_database(root: Path) -> None:
     database = sqlite3.connect(root / ".mirror-state.sqlite3")
     repaired = {
         "http://www.actionbutton.net/images/simsoc/thereforeheckthisgame.png": "images\\simsoc\\thereforeheckthisgame.png",
+        "http://www.actionbutton.net/podcasts/itunes.gif": "podcasts\\itunes.gif",
+        "http://www.actionbutton.net/podcasts/xml.gif": "podcasts\\xml.gif",
         "http://www.actionbutton.net/wp/rocket.gif": "wp\\rocket.gif",
         "http://www.actionbutton.net/wp/star.gif": "wp\\star.gif",
     }

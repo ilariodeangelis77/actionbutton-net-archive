@@ -178,14 +178,28 @@ def rewrite_urls(root: Path, replacements: dict[str, str]) -> int:
 
 
 def repair_unavailable_markup(root: Path) -> list[str]:
-    """Replace source-broken image elements without fabricating archive art."""
+    """Use recovered badges when present, otherwise keep honest text fallbacks."""
     changes: list[str] = []
     podcast_path = root / "podcasts" / "index.html"
     if podcast_path.is_file():
         soup = BeautifulSoup(podcast_path.read_text(encoding="utf-8", errors="replace"), "html.parser")
         for filename, label in (("itunes.gif", "iTunes"), ("xml.gif", "XML feed")):
             image = soup.find("img", src=f"/podcasts/{filename}")
-            if image:
+            badge = soup.find(
+                "span",
+                class_="archive-text-badge",
+                string=lambda value: bool(value and value.strip() == label),
+            )
+            target = root / "podcasts" / filename
+            recovered = target.is_file() and valid_image(target.read_bytes())
+            if recovered and badge:
+                image = soup.new_tag("img")
+                image["src"] = f"/podcasts/{filename}"
+                image["alt"] = label
+                image["border"] = "0"
+                badge.replace_with(image)
+                changes.append(f"/podcasts/{filename} (restored archived image)")
+            elif not recovered and image:
                 badge = soup.new_tag("span")
                 badge["class"] = "archive-text-badge"
                 badge["style"] = (
