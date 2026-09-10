@@ -1,0 +1,70 @@
+/*
+ * The original site used licensed Gotham webfonts whose archived package
+ * explicitly prohibits redistribution. Montserrat is a libre geometric
+ * sans-serif substitute distributed under the SIL Open Font License 1.1.
+ * Keep the original family aliases so the archived theme CSS remains intact.
+ */
+
+@font-face {
+  font-family: "Gotham A";
+  src: url("./fonts/montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham A";
+  src: url("./fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham B";
+  src: url("./fonts/montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham B";
+  src: url("./fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham SSm A";
+  src: url("./fonts/montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham SSm A";
+  src: url("./fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham SSm B";
+  src: url("./fonts/montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham SSm B";
+  src: url("./fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}

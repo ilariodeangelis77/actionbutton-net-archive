@@ -13,7 +13,7 @@ import time
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+from bs4 import BeautifulSoup, Comment, XMLParsedAsHTMLWarning
 import warnings
 
 
@@ -80,6 +80,11 @@ def process_html(root: Path) -> tuple[int, int, int]:
                 iframe.decompose()
                 touched = True
 
+        for comment in list(soup.find_all(string=lambda value: isinstance(value, Comment))):
+            if "Typography.com Gotham" in str(comment):
+                comment.extract()
+                touched = True
+
         for link in list(soup.find_all("link", href=True)):
             href = str(link.get("href", ""))
             rel = {str(item).lower() for item in (link.get("rel") or [])}
@@ -87,10 +92,13 @@ def process_html(root: Path) -> tuple[int, int, int]:
                 link.decompose()
                 touched = True
             elif "stylesheet" in rel and (
-                "fonts.googleapis.com" in href or "www.actionbutton.net/wp/wp-admin/" in href
+                "fonts.googleapis.com" in href
+                or "cloud.typography.com/7754072/7118552/css/fonts.css" in href
+                or "www.actionbutton.net/wp/wp-admin/" in href
             ):
                 # Login/admin captures are non-functional static artifacts; do
-                # not leave them dependent on remote admin or Google CSS.
+                # not leave them dependent on remote admin or unavailable font
+                # services. The open local substitute is loaded by the theme.
                 link.decompose()
                 touched = True
 

@@ -68,9 +68,11 @@ retrieved.
 The mirror contains no Wayback toolbar or replay URLs. The few remaining dead
 references are source URLs for which Wayback has no retrievable payload; crawl
 failures are in `missing-resources.csv`, and rendered-image exceptions are in
-`image-audit.json`. The external Hoefler typography
-stylesheet remains external because its archived response explicitly forbids
-copying or redistribution.
+`image-audit.json`. The archived Hoefler/Gotham font package explicitly forbids
+copying or redistribution, and its live stylesheet is deactivated. The mirror
+therefore uses a locally hosted Montserrat compatibility substitute under the
+SIL Open Font License 1.1 while retaining the theme's original font-family
+aliases.
 
 ## Back up and publish with GitHub
 
